@@ -6,7 +6,9 @@ function ProductList(props) {
                  key={i} 
                  product={p} />
              });
-             return ({productDetails})
+             return (
+             <div>({productDetails})</div>
+             )
 
 
 }

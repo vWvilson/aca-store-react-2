@@ -17,11 +17,12 @@ class App extends React.Component {
         <div>
             <Layout
             shoppingCart = {this.state.shoppingCart}
-            
-            
             >
+            
            </Layout>
         </div>
+            
+            
     )
 }
 }

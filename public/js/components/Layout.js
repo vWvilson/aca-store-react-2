@@ -1,9 +1,9 @@
 function Layout (props) {
     
        
-                 return (  <div className="App">
-                 <Header cart={props.shoppingCart}/>
-             <div className="container">
+        return (  <div className="App">
+         <Header cart={props.shoppingCart}/>
+          <div className="container">
                  <div className="row"> 
                      <div className="col-md-3">
                          <p className="lead">Shop Name</p>
@@ -17,7 +17,8 @@ function Layout (props) {
                      <div className="col-md-9">
                          <Carousel />
                          <div className="row">
-                             {productDetails}
+                             {/* {productDetails} */}
+                             {props.children}
                          </div>
                      </div>
                  </div>
@@ -30,4 +31,4 @@ function Layout (props) {
                  </div>
              );
         }
-
+ 
